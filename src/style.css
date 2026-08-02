@@ -1,0 +1,251 @@
+/* CSS reset */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* To enable smooth scorling we have to use this
+ Than we have to make change in the anchor tag*/
+
+
+@font-face {
+    font-family: "Bree Serif";
+    src: url("./assets/Style_Fonts/Bree_Serif/BreeSerif-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Baloo Bhai 2";
+    src: url("./assets/Style_Fonts/Fonts/Baloo_Bhai_2/BalooBhai2-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#image{
+    width:100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* Creating CSS variable */
+:root{
+    --navbar-height:59px;
+
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items:center;
+    position:relative ;
+    top:0px;
+    position:sticky;   
+}
+
+#navbar::before{
+    content:" ";
+    background-color: black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:95%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4;
+
+ 
+}
+/* Navigation Logo and image */
+.logo{
+    margin:34px 45px;
+}
+
+#logo img{
+    margin:3px 6px;
+
+}
+
+/* Navigation Bar: List Styling */
+
+
+#navbar ul{
+    display:flex;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3em;
+}
+#navbar ul li a{
+    color:white;
+    display:block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+
+}
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 378px;
+    justify-content: center;
+    align-items: center;
+}
+#home:before{
+    content:"";
+    background:url("./assets/BG2.jpeg") no-repeat center/cover;
+    position:absolute;
+    height:490px;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    opacity:0.89;
+
+}
+#home h1{
+    color:white;
+    text-align:center;
+    font-family: "Bree Serif", serif;
+}
+#home p{
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+    font-family: "Bree Serif", serif;
+}
+/* Services Section */
+
+#services{
+    margin:18px;
+    display:flex;
+
+    
+}
+#services .box{
+    border:2px solid brown;
+    padding: 33px;
+    margin:0px 40px;
+    margin-bottom: 19px;
+    border-radius: 28px;
+    background: #f2f2f2;
+
+}
+#services .box img{
+    height:150px;
+    margin:auto;
+    display: block;
+    
+}
+
+.service .box p{
+    font-family: "Bree Serif", serif;
+
+
+}
+/* Clients Section  */
+#client-section{
+    position: relative;
+
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background: url('./assets/BG5.jpeg') no-repeat center/cover;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.6;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+#clients img{
+    height: 122px;
+    border-radius: 23px;
+}
+.client-items{
+    padding: 34px;
+
+}
+/* Contact Section  */
+#sigin{
+    position: relative;
+}
+#signin::before{
+    content: "";
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity:0.6;
+    background: url('./assets/Contact_img.jpeg') no-repeat center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box form{
+    width:40%;
+}
+#contact-box form{
+    font-size: 1.3rem;
+    font-family: "Bree Serif", serif;
+
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background:black;
+    color:white;
+    padding:9px 20px;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-family: "Bree Serif", serif;
+    font-size:2.8rem;
+    padding:39px;
+}
+.h-secondary{
+    font-family: "Bree Serif", serif;
+    font-size:2.1rem;
+    padding:12px;
+}
+.btn{
+    padding:6px 20px;
+    border: 2px solid white;
+    background-color: rgb(216, 64, 64);
+    color:white;
+    margin:17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}

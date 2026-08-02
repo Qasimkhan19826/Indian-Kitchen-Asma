@@ -1,0 +1,74 @@
+@media screen and (max-width:1170px){
+/* Our website is created but in order to make it reponsive we will write our css here for thr phone  */
+
+/* Navigation */
+/* 4 It will arange the logo and navigation in a column */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    /* 8 stop overflowing  */
+    font-size:1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home Section */
+#home{
+    /* 5 It will increase the height of the home  */
+    height:370px;
+    /* 8 Decreasing padding */
+    padding:3px 28px;
+}
+#home::before{
+    /* 6 increasing home before height  */
+    height: 480px;
+
+}
+/* 7 decreasing font-size */
+#home p{
+    font-size: 13px;
+}
+/* Service Section */
+#services{
+    /*2 by doing flex direction column ,all the elments will arange responsively */
+    flex-direction: column;
+}
+#services .box{
+    border:2px solid brown;
+    padding: 33px;
+    margin:2px 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #f2f2f2;
+
+}
+
+
+/* Client-section */
+
+#clients{
+    /* 3 wrapping our clients */
+    flex-wrap: wrap;
+}
+#clients img{
+    /* 3 wrapping our clients img */
+    width:66px;
+    height:auto;
+    
+}
+
+/* Contact Us section */
+#contact-box form{
+    width:75%;
+}
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    /* 9 Decreasing */
+    font-size:13px;
+    padding: 4px 8px;
+}}
