@@ -7,15 +7,15 @@ function Navbar() {
 
   return(
   <div>
-<nav id="navbar">
+      <nav id="navbar">
         <div id="logo">
             <img id="image" src={Logo} alt="Indian Kitchen Asma "/>
         </div>
         <ul>
             <li className="item"><a href="/">Home</a></li>
             <li className="item"><a href="/">Services</a></li>
-            <li className="item"><a href="/">Our Clients</a></li>
-            <li className="item"><a href="/">Sign In</a></li>
+            <li className="item"><a href="/">Contact Us</a></li>
+            <li className="item"><a href="/">Signin/Login</a></li>
         </ul>
     </nav>
   </div>

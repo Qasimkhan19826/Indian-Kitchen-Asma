@@ -46,16 +46,16 @@
 
 /* Client-section */
 
-#clients{
-    /* 3 wrapping our clients */
+/* #clients{
+    /* 3 wrapping our clients 
     flex-wrap: wrap;
-}
-#clients img{
-    /* 3 wrapping our clients img */
+} */
+/* #clients img{
+    /* 3 wrapping our clients img 
     width:66px;
     height:auto;
     
-}
+} */
 
 /* Contact Us section */
 #contact-box form{

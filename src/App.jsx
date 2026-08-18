@@ -2,21 +2,24 @@ import './style.css';
 import './phone.css';
 import Navbar from './Components/1navbar.jsx';
 import Home from './Components/2home.jsx';
-import Service from './Components/3service.jsx';
-import Signin from './Components/4signin.jsx';
-import Ourclients from './Components/5ourclients.jsx';
-import Footer from './Components/6footer.jsx';
+import BestSellers from './Components/3.best_sellers.jsx';
+import Service from './Components/4service.jsx';
+import Signin from './Components/5signin.jsx';
+import Contact from './Components/6contact.jsx';
+import Footer from './Components/7footer.jsx';
+
 
 function App() {
 
   return (
     
   <>
-  <Navbar/>
+  <Navbar title="Indian Kitchen Asma" />
   <Home/>
+  <BestSellers/>
   <Service/>
   <Signin/>
-  <Ourclients/>
+  <Contact/>
   <Footer/>
   </>
     

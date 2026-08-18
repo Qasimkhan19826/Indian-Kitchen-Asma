@@ -7,16 +7,20 @@
  Than we have to make change in the anchor tag*/
 
 
+
 @font-face {
     font-family: "Bree Serif";
-    src: url("./assets/Style_Fonts/Bree_Serif/BreeSerif-Regular.ttf") format("truetype");
+    src: url("./assets/Style_Fonts/Bree_Serif/BreeSerif-Regular.ttf")
+         format("truetype");
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Baloo Bhai 2";
-    src: url("./assets/Style_Fonts/Fonts/Baloo_Bhai_2/BalooBhai2-VariableFont_wght.ttf") format("truetype");
-    font-weight: 400;
+    src: url("./assets/Style_Fonts/Fonts/Baloo_Bhai_2/BalooBhai2-VariableFont_wght.ttf")
+         format("truetype");
+    font-weight: 100 900;
     font-style: normal;
 }
 
@@ -64,12 +68,12 @@
 
 }
 
-/* Navigation Bar: List Styling */
+/* Navigation Bar: List Styling */ 
 
 
 #navbar ul{
     display:flex;
-    font-family: "Baloo Bhai 2", sans-serif;
+    font-family: "Baloo Bhai 2", sans-serif ;
 }
 
 
@@ -116,7 +120,7 @@
 #home h1{
     color:white;
     text-align:center;
-    font-family: "Bree Serif", serif;
+    font-family: "Bree Serif", serif !;
 }
 #home p{
     color:white;
@@ -124,6 +128,42 @@
     font-size:1.5rem;
     font-family: "Bree Serif", serif;
 }
+/* Best Seller Section  */
+#bestsellers{
+    margin:18px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+#bestsellers .card{
+    border:2px solid brown;
+    padding: 33px;
+    margin:0px 40px;
+    margin-bottom: 19px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    width:245px;
+    
+
+}
+#bestsellers .card img{
+    height:150px;
+    margin:auto;
+    display: block;
+    
+}
+
+/* .pservice .card p{
+    font-family: "Bree Serif", serif;
+
+
+} */
 /* Services Section */
 
 #services{
@@ -132,6 +172,7 @@
 
     
 }
+
 #services .box{
     border:2px solid brown;
     padding: 33px;
@@ -168,17 +209,23 @@
     opacity: 0.6;
 }
 #clients{
+    border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width:300px;
     height:400px;
+    padding: 25px;
+    margin: 10px;
 }
 #clients img{
-    height: 122px;
+    height: 95px;
     border-radius: 23px;
-}
+    
+} 
 .client-items{
-    padding: 34px;
+    padding: 13px;
 
 }
 /* Contact Section  */
@@ -199,7 +246,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 34px;
+    padding-bottom: 70px;
 }
 
 #contact-box form{
@@ -226,7 +273,7 @@ footer{
 
 /* Utility Classes */
 .h-primary{
-    font-family: "Bree Serif", serif;
+    font-family: "Bree Serif", serif ;
     font-size:2.8rem;
     padding:39px;
 }

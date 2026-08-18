@@ -1,4 +1,3 @@
-import React from "react";
 
 
 
@@ -18,11 +17,11 @@ function Signin() {
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>
-                    <input type="text" name="email" id="email" placeholder="Enter Your email "/>
+                    <input type="email" name="email" id="email" placeholder="Enter Your email "/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="phno">Phone Number:</label>
-                    <input type="text" name="phno" id="phno" placeholder="Enter Your Phone Number "/>
+                    <input type="number" name="phno" id="phno" placeholder="Enter Your Phone Number "/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="add">Address:</label>
