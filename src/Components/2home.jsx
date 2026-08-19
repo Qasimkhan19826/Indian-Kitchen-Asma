@@ -8,8 +8,7 @@ function Home() {
   <div>
     <section id="home">
         <h1 className="h-primary">Welcome To Indian Kitchen Asma</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem in</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
+        <p>Enjoy the rich taste of restaurant-style food, freshly prepared with homemade love, care, and hygiene </p>
         <button class="btn">Order Now</button>
 
     </section>

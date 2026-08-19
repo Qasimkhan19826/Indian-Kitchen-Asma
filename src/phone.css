@@ -28,6 +28,21 @@
 #home p{
     font-size: 13px;
 }
+/* Best Sellers Section  */
+#bestsellers{
+    /*2 by doing flex direction column ,all the elments will arange responsively */
+    flex-direction: column;
+}
+#bestsellers .card{
+    border:2px solid brown;
+    padding: 33px;
+    margin:2px 0px;
+    margin-bottom: 20px;
+    border-radius: 28px;
+    background: #f2f2f2;
+
+}
+
 /* Service Section */
 #services{
     /*2 by doing flex direction column ,all the elments will arange responsively */
@@ -46,16 +61,16 @@
 
 /* Client-section */
 
-/* #clients{
-    /* 3 wrapping our clients 
-    flex-wrap: wrap;
-} */
-/* #clients img{
-    /* 3 wrapping our clients img 
+#clients{
+     /* 3 wrapping our clients  */
+    flex-direction: column;
+}
+#clients img{
+    /* 3 wrapping our clients img  */
     width:66px;
     height:auto;
     
-} */
+}
 
 /* Contact Us section */
 #contact-box form{

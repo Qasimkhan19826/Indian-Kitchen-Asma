@@ -16,6 +16,8 @@ function Navbar() {
             <li className="item"><a href="/">Services</a></li>
             <li className="item"><a href="/">Contact Us</a></li>
             <li className="item"><a href="/">Signin/Login</a></li>
+            <li className="item"><a href="/">Cart</a></li>
+            <button className="">Enable Dark Mode</button>
         </ul>
     </nav>
   </div>

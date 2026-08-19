@@ -114,7 +114,7 @@
     top:0px;
     left:0px;
     z-index:-1;
-    opacity:0.89;
+    /* opacity:0.89; */
 
 }
 #home h1{
@@ -209,12 +209,11 @@
     opacity: 0.6;
 }
 #clients{
-    border:2px solid black;
+    /* border:2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width:300px;
     height:400px;
     padding: 25px;
     margin: 10px;
@@ -225,7 +224,7 @@
     
 } 
 .client-items{
-    padding: 13px;
+    padding: 33px;
 
 }
 /* Contact Section  */
@@ -277,9 +276,15 @@ footer{
     font-size:2.8rem;
     padding:39px;
 }
+
 .h-secondary{
     font-family: "Bree Serif", serif;
     font-size:2.1rem;
+    padding:12px;
+}
+.food-title{
+    font-family: "Bree Serif", serif;
+    font-size:1.3rem;
     padding:12px;
 }
 .btn{
@@ -291,6 +296,18 @@ footer{
     font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
+}
+.btn2{
+    padding:6px 20px;
+    border: 2px solid white;
+    background-color: rgb(216, 64, 64);
+    color:white;
+    display: block;
+    margin:auto;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 
 .center{

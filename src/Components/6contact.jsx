@@ -23,7 +23,7 @@ function Contact() {
                 </a>
             </div>
             <div className="client-items">
-                <a href="mailto:bubblykhan7890@gmail.com" target='_blank'> 
+                <a id="gmail" href="mailto:bubblykhan7890@gmail.com" target='_blank'> 
                 <img src={Gmail} alt="Whatsapp" />
                 </a>
             </div>
