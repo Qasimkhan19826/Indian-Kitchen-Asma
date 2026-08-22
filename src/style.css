@@ -25,15 +25,20 @@
 }
 
 
-#image{
+.image{
     width:100px;
     height: 100px;
     border-radius: 100%;
+}
+.imagemode{
+    width:35px;
+    height: 35px;
 }
 
 /* Creating CSS variable */
 :root{
     --navbar-height:59px;
+   
 
 }
 /* Navigation Bar */
@@ -42,12 +47,19 @@
     align-items:center;
     position:relative ;
     top:0px;
-    position:sticky;   
+    position: sticky;
 }
 
+/* for login /signin and dark mode */
+#left{
+    position: relative;
+    top:0px;
+    margin-left:40%;
+
+}
 #navbar::before{
     content:" ";
-    background-color: black;
+    background-color:rgb(110, 106, 106);
     position:absolute;
     top:0px;
     left:0px;
@@ -87,6 +99,8 @@
     padding:3px 22px;
     border-radius: 20px;
     text-decoration: none;
+    text-shadow:1px 1px black;
+
 
 
 }
@@ -100,7 +114,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    padding:3px 200px;
+    padding:23px 200px;
     height: 378px;
     justify-content: center;
     align-items: center;
@@ -109,12 +123,12 @@
     content:"";
     background:url("./assets/BG2.jpeg") no-repeat center/cover;
     position:absolute;
-    height:490px;
+    height:530px;
     width:100%;
     top:0px;
     left:0px;
     z-index:-1;
-    /* opacity:0.89; */
+    opacity:0.89;
 
 }
 #home h1{
@@ -159,11 +173,11 @@
     
 }
 
-/* .pservice .card p{
+.pservice .card p{
     font-family: "Bree Serif", serif;
 
 
-} */
+}
 /* Services Section */
 
 #services{
@@ -207,6 +221,7 @@
     height:100%;
     z-index:-1;
     opacity: 0.6;
+    
 }
 #clients{
     /* border:2px solid black; */
@@ -274,7 +289,7 @@ footer{
 .h-primary{
     font-family: "Bree Serif", serif ;
     font-size:2.8rem;
-    padding:39px;
+    padding:23px;
 }
 
 .h-secondary{
@@ -287,6 +302,7 @@ footer{
     font-size:1.3rem;
     padding:12px;
 }
+/* Buttons ,btn for order now */
 .btn{
     padding:6px 20px;
     border: 2px solid white;
@@ -297,6 +313,7 @@ footer{
     border-radius: 10px;
     cursor: pointer;
 }
+/*  btn2 for add to cart*/
 .btn2{
     padding:6px 20px;
     border: 2px solid white;
@@ -309,7 +326,39 @@ footer{
     cursor: pointer;
     
 }
+/* btn3 for dark mode  */
+.btn3{
+    padding:0px 2px;
+    border: 2px solid rgb(77, 75, 75);
+    background-color:white;
+    margin-left: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top:7px;
+    
+
+    
+}
+/* btn4 for login/signin */
+.btn4{
+    padding:6px 20px;
+    border: 2px solid white;
+    background-color: rgb(12, 62, 214);
+    color:white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:12px;
+    
+    
+}
 
 .center{
     text-align: center;
+}
+
+.visible{
+    text-shadow:1px 2px black;
+    
 }

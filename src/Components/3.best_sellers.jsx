@@ -1,7 +1,4 @@
-import React from "react";
-import NFood1 from '../assets/NFood1.png';
-import NFood2 from '../assets/NFood2.png';
-import DeliveryBoy from '../assets/DeliveryGuy.png';
+
 // Card Images (Dishes) 
 import img1 from '../assets/img1-removebg-preview.png';
 import img2 from '../assets/img2-removebg-preview.png';
@@ -10,16 +7,16 @@ import img4 from '../assets/img4-removebg-preview.png';
 import img5 from '../assets/img5-removebg-preview.png';
 import img6 from '../assets/img6-removebg-preview.png';
 import img7 from '../assets/img7-removebg-preview.png';
-import img8 from '../assets/img8-removebg-preview.png';
+import img8 from '../assets/cimg8.png';
 
-function Service() {
+function Service(props) {
 
   return(
   <>
-   <section id="services-container">
+   <section id="services-container" style={{color:props.mode === 'dark'?'black':'white'}}>
         <h1 className="h-primary center">Best Sellers </h1>
         <div id="bestsellers">
-            <div className="card">
+            <div className="card" >
                 <img src={img1} alt="Food Ordering"/>
                 <h3 className="food-title center">Chicken Biryani</h3>
                 <button className="btn2">Add To Cart</button>
@@ -73,7 +70,7 @@ function Service() {
     </section>
   </>
     
-  );
+  );    
 }
 
 export default Service;
