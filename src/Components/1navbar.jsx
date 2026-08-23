@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from '../assets/Indian_Kitchen_Logo.jpeg';
 import light from '../assets/light.png';
 import dark from '../assets/dark.png';
@@ -9,7 +8,7 @@ function Navbar(props) {
 
   return(
   <div>
-      <nav id="navbar" style={{backgroundColor:props.mode === 'light'?'white':'#00010a'}}>
+      <nav id="navbar" style={{backgroundColor:props.mode === 'light'?'silver':'#061625'}}>
         <div id="logo">
             <img className="image" src={Logo} alt="Indian Kitchen Asma "/>
         </div>
@@ -22,7 +21,8 @@ function Navbar(props) {
         <div id="left">
         <button className="btn4">Login</button>
         <button className="btn4">Signin</button>
-        <button className="btn3"><img className="imagemode" onClick={props.toggleMode} src={light}/></button>
+        <button id="btn3" onClick={props.toggleMode}> 
+          <img className="imagemode"   src={props.mode === 'light'?light:dark} style={{backgroundColor:props.mode === 'light'?'white':'black'}}/></button>
         </div>
     </nav>
   </div>

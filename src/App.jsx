@@ -15,12 +15,13 @@ function App() {
 // Enable Dark Mode feature Step 1: setting our state ,purpose:(Whether dark mode is enable or not)
   const[mode,setMode] = useState('light') 
 
+
 // step 3 Changing our mode by using condtional statements 
     const toggleMode = ()=>{
     if(mode ==='light')
     {
       setMode('dark');
-      document.body.style.backgroundColor="#00010a";
+      document.body.style.backgroundColor="#061625";
 
     }
     else{
@@ -38,10 +39,10 @@ function App() {
   <Navbar title="Indian Kitchen Asma" mode={mode} toggleMode={toggleMode}/> 
 
   <Home/>
-  <BestSellers/>
-  <Service/>
-  <Signin/>
-  <Contact/>
+  <BestSellers mode={mode}/>
+  <Service mode={mode}/>
+  <Signin mode={mode}/>
+  <Contact mode={mode}/>
   <Footer/>
   </>
     

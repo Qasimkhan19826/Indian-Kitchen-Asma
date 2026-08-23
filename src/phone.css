@@ -85,6 +85,7 @@
 #clients{
      /* 3 wrapping our clients  */
     flex-direction: column;
+    height: auto;
 }
 #clients img{
     /* 3 wrapping our clients img  */
@@ -109,6 +110,6 @@
     padding: 4px 8px;
 }}
 .visible{
-    text-shadow:1px 1px black;
+    text-shadow:1px 1px 3px black;
     
 }

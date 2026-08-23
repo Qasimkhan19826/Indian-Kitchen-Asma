@@ -4,12 +4,12 @@ import Gmail from '../assets/GmailLogo.png';
 
 
 
-function Contact() {
+function Contact(props) {
 
   return(
-  <div>
+  <div > 
 <section id="client-section">
-        <h1 className="h-primary center">Contact Us</h1>
+        <h1 className="h-primary center" style={{color:props.mode==='dark'?'white':'black'}}>Contact Us</h1>
         <div id="clients">
             
             <div className="client-items">
