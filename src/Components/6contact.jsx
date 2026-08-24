@@ -24,7 +24,7 @@ function Contact(props) {
             </div>
             <div className="client-items">
                 <a id="gmail" href="mailto:bubblykhan7890@gmail.com" target='_blank'> 
-                <img src={Gmail} alt="Whatsapp" />
+                <img src={Gmail} alt="Gmail" />
                 </a>
             </div>
             

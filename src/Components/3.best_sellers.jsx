@@ -8,23 +8,12 @@ import img5 from '../assets/img5-removebg-preview.png';
 import img6 from '../assets/img6-removebg-preview.png';
 import img7 from '../assets/img7-removebg-preview.png';
 import img8 from '../assets/cimg8.png';
+import Productcart from './8.productcart';
 
 function Service(props) {
-// Creating our add to cart logic button 
-const[add,setAdded] = useState(false)
-// Creating ou increase / decrease button
-const[quantity,setQuantity] = useState(1)
 
-// const addition = ()=>{
-// if (add === true){
-//     setQuantity(quantity +1)
-// }   
-// }
-// const subtraction = ()=>{
-// if (add === true){
-//     setQuantity(quantity > 1?quantity-1:1)
-// }   
-// }
+
+
 
 
   return(
@@ -35,59 +24,50 @@ const[quantity,setQuantity] = useState(1)
             <div className="card"  style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',
                 borderColor:props.mode === 'dark'?'white':'black'
             }}>
-                <img src={img1} alt="Food Ordering"/>
-                <h3 className="food-title center">Chicken Biryani</h3>
+                <img src={img1} alt="Chicken Biryani"/>
+                <h3 className="food-title center">Chicken Biryani<div>₹140 </div></h3>
+                
+                <Productcart/>
                 
             </div>
 
             <div className="card"  style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img2} alt="Food Catering"/>
-                <h3 className="food-title center">Chicken Nahari</h3>
-               {!add ? (<button className='btn2' onClick={()=> setAdded(true)}>Add To Cart</button>):
-               (<div className="center">
-                <button className="btn5" onClick={()=>setQuantity(quantity>1?quantity-1:1)}>-</button>
-                <span>{quantity}</span>
-                <button className="btn5" onClick={()=>setQuantity(quantity+1)}>+</button> 
-                </div>
-                )}
-               
+                <img src={img2} alt="Chicken Nahari"/>
+                <h3 className="food-title center">Chicken Nahari<div>₹110 </div></h3>
+                <Productcart/>
+
             </div>
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img3} alt="Food Catering"/>
-                <h3 className="food-title center">Tandoori Leg Piece</h3>
-                <button className="btn2">Add To Cart</button>
+                <img src={img3} alt=" 2 Tandoori Leg Piece"/>
+                <h3 className="food-title center"> 2 Tandoori Leg Piece<div>₹120 </div></h3>
+                <Productcart/>
                
             </div>
             
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img4} alt="Food Ordering"/>
-                <h3 className="food-title center">Paneer Biryani</h3>
-                <button className="btn2">Add To Cart</button>
-                
+                <img src={img4} alt="Paneer Biryani"/>
+                <h3 className="food-title center">Paneer Biryani<div>₹120 </div></h3>
+               <Productcart/> 
             </div>
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img5} alt="Food Catering"/>
-                <h3 className="food-title center">Tandoori Paneer Tikka</h3>
-                <button className="btn2">Add To Cart</button>
-               
+                <img src={img5} alt="Tandoori Paneer Tikka"/>
+                <h3 className="food-title center">Tandoori Paneer Tikka<div>₹130 </div></h3>
+               <Productcart/>
             </div>
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img6} alt="Food Catering"/>
-                <h3 className="food-title center">Pav Bhaji</h3>
-                <button className="btn2">Add To Cart</button>
-               
+                <img src={img6} alt="Pav Bhaji"/>
+                <h3 className="food-title center">Pav Bhaji<div>₹100 </div></h3>
+               <Productcart/>
             </div>
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img7} alt="Food Ordering"/>
-                <h3 className="food-title center">Shahi Tudka</h3>
-                <button className="btn2">Add To Cart</button>
-                
+                <img src={img7} alt="Shahi Tudka"/>
+                <h3 className="food-title center">Shahi Tudka<div>₹90 </div></h3>
+                <Productcart/>
             </div>
             <div className="card" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',borderColor:props.mode === 'dark'?'white':'black'}}>
-                <img src={img8} alt="Food Catering"/>
-                <h3 className="food-title center">Malai Kheer</h3>
-                <button className="btn2">Add To Cart</button>
-               
+                <img src={img8} alt="Malai Kheer"/>
+                <h3 className="food-title center">Malai Kheer<div>₹90 </div></h3>
+               <Productcart/>
             </div>
         
         </div>

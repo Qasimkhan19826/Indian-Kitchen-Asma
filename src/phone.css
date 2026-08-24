@@ -108,8 +108,22 @@
     /* 9 Decreasing */
     font-size:13px;
     padding: 4px 8px;
-}}
+}
+/* btn4 for login/signin */
+    
+.btn4{
+    padding:4px 11px;
+    border: 2px solid white;
+    background-color: rgb(12, 62, 214);
+    color:white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:5px;
+    
+}
 .visible{
     text-shadow:1px 1px 3px black;
     
+}    
 }
