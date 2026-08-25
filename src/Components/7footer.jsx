@@ -1,10 +1,10 @@
 
-function Footer() {
+function Footer(props) {
   return (
     <div>
       <footer>
         <div class="center">
-          Copyright &copy; www.IndianKitchenAsma.com .All Rights Reserved!
+        {props.text[props.language].footer}
         </div>
       </footer>
     </div>
