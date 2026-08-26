@@ -84,12 +84,12 @@
 
 #clients{
      /* 3 wrapping our clients  */
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
 }
 #clients img{
     /* 3 wrapping our clients img  */
-    width:66px;
+    width:45px;
     height:auto;
     
 }

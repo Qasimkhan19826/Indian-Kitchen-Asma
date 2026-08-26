@@ -1,4 +1,4 @@
-import Youtube from '../assets/YoutubeL3.png';
+import Youtube from '../assets/youtube.png';
 import Whatsapp from '../assets/WhatsappLogo.png';
 import Gmail from '../assets/GmailLogo.png';
 

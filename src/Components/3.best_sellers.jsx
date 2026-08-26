@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 // Card Images (Dishes)
 import img1 from "../assets/img1-removebg-preview.png";
 import img2 from "../assets/img2-removebg-preview.png";
@@ -27,7 +26,7 @@ function Service(props) {
             <img src={img1} alt="Chicken Biryani" />
             <h3 className="food-title center">
               {props.text[props.language].dish1}
-              <div>{props.text[props.language].price1}</div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price1}</div>
             </h3>
 
             <Productcart
@@ -47,7 +46,8 @@ function Service(props) {
             <img src={img2} alt="Chicken Nahari" />
             <h3 className="food-title center">
               {props.text[props.language].dish2}
-              <div>{props.text[props.language].price2} </div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price2}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -65,7 +65,9 @@ function Service(props) {
             <img src={img3} alt=" 2 Tandoori Leg Piece" />
             <h3 className="food-title center">
               {props.text[props.language].dish3}
-              <div>{props.text[props.language].price3} </div>
+
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price3}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -84,7 +86,8 @@ function Service(props) {
             <img src={img4} alt="Paneer Biryani" />
             <h3 className="food-title center">
               {props.text[props.language].dish4}
-              <div> {props.text[props.language].price4}</div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price4}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -102,7 +105,8 @@ function Service(props) {
             <img src={img5} alt="Tandoori Paneer Tikka" />
             <h3 className="food-title center">
               {props.text[props.language].dish5}
-              <div>{props.text[props.language].price5} </div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price5}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -120,7 +124,8 @@ function Service(props) {
             <img src={img6} alt="Pav Bhaji" />
             <h3 className="food-title center">
               {props.text[props.language].dish6}
-              <div>{props.text[props.language].price6} </div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price6}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -138,7 +143,8 @@ function Service(props) {
             <img src={img7} alt="Shahi Tudka" />
             <h3 className="food-title center">
               {props.text[props.language].dish7}
-              <div>{props.text[props.language].price7} </div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price7}</div>
+
             </h3>
             <Productcart
               language={props.language}
@@ -157,8 +163,9 @@ function Service(props) {
             <img src={img8} alt="Malai Kheer" />
             <h3 className="food-title center">
               {props.text[props.language].dish8}
-              <div>{props.text[props.language].price8}</div>
+              <div><span>{props.text[props.language].currency}</span>{props.text[props.language].price8}</div>
             </h3>
+
             <Productcart
               language={props.language}
               text={props.text}

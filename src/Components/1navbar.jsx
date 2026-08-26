@@ -25,9 +25,9 @@ function Navbar(props) {
           value={props.language}
           onChange={(e)=>props.setLanguage(e.target.value)}>
             <option value="en">English</option>
-            <option value="hi">Hindi</option>
-            <option value="gu">Gujarati</option>
-            <option value="ch">Chinese</option>
+            <option value="hi">हिंदी</option>
+            <option value="gu">ગુજરાતી</option>
+            <option value="ch">中文</option>
           </select>
         <button id="btn3" onClick={props.toggleMode}> 
           <img className="imagemode"   src={props.mode === 'light'?light:dark} style={{backgroundColor:props.mode === 'light'?'white':'black'}}/></button>
