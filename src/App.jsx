@@ -282,7 +282,82 @@ en:{
 
               // footer Us Component
               footer: "版权所有 © www.IndianKitchenAsma.com .保留所有权利！"
-      }
+      },
+            ur: {
+            // For Navbar Component
+            home: "ہوم",
+            services: "خدمات",
+            contact: "ہم سے رابطہ کریں",
+            login: "لاگ اِن",
+            signin: "سائن اِن",
+
+            // For Home Component
+            title: "انڈین کچن اسما میں خوش آمدید",
+            homedescription: "گھر جیسی محبت، خیال اور صفائی کے ساتھ تازہ تیار کیا گیا ریستوران کے ذائقے والا مزیدار کھانا",
+            ordernow: "ابھی آرڈر کریں",
+
+            // For Best Sellers Component
+            bestsellers: "سب سے زیادہ پسند کیے جانے والے کھانے",
+            currency: "₹",
+
+            dish1: "چکن بریانی",
+            price1: 140,
+
+            dish2: "چکن نہاری",
+            price2: 110,
+
+            dish3: "2 تندوری لیگ پیس",
+            price3: 120,
+
+            dish4: "پنیر بریانی",
+            price4: 150,
+
+            dish5: "تندوری پنیر ٹکہ",
+            price5: 160,
+
+            dish6: "پاؤ بھاجی",
+            price6: 100,
+
+            dish7: "شاہی ٹکڑا",
+            price7: 90,
+
+            dish8: "ملائی کھیر",
+            price8: 90,
+
+            cart: "کارٹ میں شامل کریں",
+
+            // For Service Component
+            ourservices: "ہماری خدمات",
+
+            heading1: "کھانے کا آرڈر",
+            description1: "ہم شادیوں، پارٹیوں، خاندانی تقریبات اور دیگر خاص مواقع کے لیے مزیدار اور حفظانِ صحت کے اصولوں کے مطابق تیار کیا گیا کھانا فراہم کرتے ہیں۔",
+
+            heading2: "فوڈ کیٹرنگ",
+            description2: "معیاری اجزاء، روایتی ذائقوں اور صفائی کا خاص خیال رکھتے ہوئے تازہ تیار کیے گئے کھانوں سے لطف اندوز ہوں۔",
+
+            heading3: "مفت ڈیلیوری",
+            description3: "اپنے پسندیدہ کھانے تازہ اور آسانی سے اپنے دروازے تک منگوائیں۔ ₹249 سے زیادہ کے آرڈر پر مفت ڈیلیوری حاصل کریں۔",
+
+            // For Signin Form Heads Component
+            name: "نام :",
+            email: "ای میل :",
+            phno: "فون نمبر",
+            address: "پتہ",
+
+            // Forms Placeholder
+            namep: "اپنا نام درج کریں",
+            emailp: "اپنا ای میل درج کریں",
+            phnop: "اپنا فون نمبر درج کریں",
+
+            submit: "جمع کریں",
+
+            // And, Characters
+            and: " اور ",
+            char: "حروف",
+
+            // Footer
+            footer: "کاپی رائٹ © www.IndianKitchenAsma.com۔ جملہ حقوق محفوظ ہیں!"
+          },
 };
 
 
