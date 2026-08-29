@@ -13,11 +13,14 @@ import {useState} from 'react';
 
 
 function App() {
+
+
 // Enable Dark Mode feature Step 1: setting our state ,purpose:(Whether dark mode is enable or not)
   const[mode,setMode] = useState('light') ;
 
 // Creating state for multiple language feature
 const[language,setLanguage]= useState("en");
+
 
 // All website translation
       const text ={
@@ -303,7 +306,7 @@ en:{
   <>
   {/* step 2 passing our mode  */}
   {/* step 4 passing toggleMode for our dark mode light mode ,We will use this toggle in our button */}
-  <Navbar title="Indian Kitchen Asma" mode={mode} toggleMode={toggleMode} language={language} text={text} setLanguage={setLanguage}/> 
+  <Navbar mode={mode} toggleMode={toggleMode} language={language} text={text} setLanguage={setLanguage} /> 
 
   <Home language={language} text={text} setLanguage={setLanguage}/> 
 

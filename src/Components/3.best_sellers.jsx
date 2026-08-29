@@ -33,6 +33,8 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // addToCart={props.addToCart}
+
             />
           </div>
 
@@ -53,6 +55,8 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // addToCart={props.addToCart}
+
             />
           </div>
           <div
@@ -73,6 +77,8 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // addToCart={props.addToCart}
+
             />
           </div>
 
@@ -93,6 +99,8 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // addToCart={props.addToCart}  
+
             />
           </div>
           <div
@@ -112,6 +120,9 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // cartCount={cartCount+quantity}
+              // addToCart={props.addToCart}
+
             />
           </div>
           <div
@@ -130,7 +141,9 @@ function Service(props) {
             <Productcart
               language={props.language}
               text={props.text}
-              setlanguage={props.setlanguage}
+              setlanguage={props.setlanguage} 
+              // addToCart={props.addToCart}
+
             />
           </div>
           <div
@@ -149,7 +162,9 @@ function Service(props) {
             <Productcart
               language={props.language}
               text={props.text}
-              setlanguage={props.setlanguage}
+              setlanguage={props.setlanguage} 
+              // addToCart={props.addToCart}
+
             />
           </div>
         
@@ -170,6 +185,8 @@ function Service(props) {
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
+              // addToCart={props.addToCart}
+
             />
           </div>
         </div>

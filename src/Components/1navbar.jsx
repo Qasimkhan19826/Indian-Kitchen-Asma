@@ -1,41 +1,109 @@
-import Logo from '../assets/Indian_Kitchen_Logo.jpeg';
-import light from '../assets/light.png';
-import dark from '../assets/dark.png';
+import { useState,useEffect } from 'react'; 
+import Logo from '../assets/Indian_Kitchen_Logo.jpeg'; 
+// React lucide package provides you entity that you can use in the navbar cart ,Dark Mode ,Light Mode 
+import { ShoppingCart,Sun,Moon } from 'lucide-react'; 
+ 
+ 
+ 
+ 
+function Navbar(props) { 
+ 
+// Creating our poper (Responsive Mobile Navbar) 
+const[menuopen,setMenuOpen] = useState(false); 
 
+// Using useEffect to block scrolling when the drawer is open else scrolling is allowed
+useEffect(() => {
+    document.body.style.overflow = menuopen ? "hidden" : "auto";
 
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [menuopen]);    
 
-function Navbar(props) {
-
-  return(
-  <div>
-      <nav id="navbar" style={{backgroundColor:props.mode === 'light'?'silver':'#061625'}}>
-        <div id="logo">
-            <img className="image" src={Logo} alt="Indian Kitchen Asma "/>
-        </div>
-        <ul>
-            <li className="item"><a href="#">{props.text[props.language].home}</a></li>
-            <li className="item"><a href="#">{props.text[props.language].services}</a></li>
-            <li className="item"><a href="#">{props.text[props.language].contact}</a></li>
-            
-        </ul>
-        <div id="left">
-        <button className="btn4">{props.text[props.language].login}</button>
-        <button className="btn4">{props.text[props.language].signin}</button>
-          <select className='btn4'
-          value={props.language}
-          onChange={(e)=>props.setLanguage(e.target.value)}>
-            <option value="en">English</option>
-            <option value="hi">हिंदी</option>
-            <option value="gu">ગુજરાતી</option>
-            <option value="ch">中文</option>
-          </select>
-        <button id="btn3" onClick={props.toggleMode}> 
-          <img className="imagemode"   src={props.mode === 'light'?light:dark} style={{backgroundColor:props.mode === 'light'?'white':'black'}}/></button>
-        </div>
-    </nav>
-  </div>
-    
-  );
-}
-
-export default Navbar;
+  return( 
+  <> 
+      <nav id="navbar" style={{backgroundColor:props.mode === 'light'?'silver':'#061625'}}> 
+        <div id="logo"> 
+            <img className="image" src={Logo} alt="Indian Kitchen Asma "/> 
+        </div> 
+        <ul className='desktop-menu'> 
+            <li className="item"><a href="#">{props.text[props.language].home}</a></li> 
+            <li className="item"><a href="#">{props.text[props.language].services}</a></li> 
+            <li className="item"><a href="#">{props.text[props.language].contact}</a></li> 
+           <li> 
+            <button className="btn6" >  
+            <ShoppingCart size={28} strokeWidth={2} /> 
+              </button>  
+            </li> 
+         
+        </ul> 
+        <div id="left" className='desktop-menu'> 
+        <button className="btn4">{props.text[props.language].login}</button> 
+        <button className="btn4">{props.text[props.language].signin}</button> 
+          <select className='btn4' 
+          value={props.language} 
+          onChange={(e)=>props.setLanguage(e.target.value)}> 
+            <option value="en">English</option> 
+            <option value="hi">हिंदी</option> 
+            <option value="gu">ગુજરાતી</option> 
+            <option value="ch">中文</option> 
+          </select> 
+ 
+        <button className="btn3" onClick={props.toggleMode} >  
+          {props.mode === 'light'?<Sun size={32} strokeWidth={1} /> : <Moon size={32} strokeWidth={1}/> } 
+        </button> 
+ 
+        {/* <button onClick={props.toggleMode}> 
+        {props.mode === "light" ? <Moon size={28} /> : <Sun size={28} />} 
+        </button> 
+  */} 
+ 
+        {/* <button className="btn6">  
+          <img className="imagemode"   src={props.mode === 'light'?wcart:dcart} style={{backgroundColor:props.mode === 'light'?'white':'black'}}/></button> */} 
+        </div> 
+ 
+        {/* Phone Menu Button */} 
+        <button className='menu-button' 
+        onClick={()=>setMenuOpen(true)}> 
+          ☰ 
+        </button> 
+ 
+        {/* Right Side Mobile Menu */} 
+         
+        <div className={`mobile-menu ${menuopen ?"open":""}`} >
+ 
+          {/*  Close Button  */} 
+          <button  
+          className="close-button" 
+          onClick={()=>setMenuOpen(false)}> 
+            x 
+          </button> 
+ 
+          {/* Copying Desktop Content only taking anchor tags of ul>li rest of the things are almost same  */} 
+          <a href="#">{props.text[props.language].home}</a> 
+          <a href="#">{props.text[props.language].services}</a> 
+          <a href="#">{props.text[props.language].contact}</a> 
+          <button className="btn4">{props.text[props.language].login}</button> 
+          <button className="btn4">{props.text[props.language].signin}</button> 
+ 
+ 
+         <select className='btn4' 
+          value={props.language} 
+          onChange={(e)=>props.setLanguage(e.target.value)}> 
+            <option value="en">English</option> 
+            <option value="hi">हिंदी</option> 
+            <option value="gu">ગુજરાતી</option> 
+            <option value="ch">中文</option> 
+          </select> 
+ 
+           
+        </div> 
+        
+         
+    </nav> 
+  </> 
+     
+  ); 
+} 
+ 
+export default Navbar; 
