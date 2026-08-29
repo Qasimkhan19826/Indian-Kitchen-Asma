@@ -43,6 +43,7 @@
 #home::before{
     /* 6 increasing home before height  */
     height: 570px;
+    
 
 }
 /* 7 decreasing font-size */
@@ -159,7 +160,7 @@
 }    
 }
 /* ================================= */
-/* ADD-ON: MOBILE NAVBAR */
+/* ADD-ON: By Chatgpt MOBILE NAVBAR */
 /* ================================= */
 
 
@@ -266,4 +267,59 @@
         cursor: pointer;
     }
 }
+/* ================================================= */
+/* ADD ON: MOBILE CART + DARK MODE + MENU */
+/* ================================================= */
 
+/* Desktop: hide mobile buttons */
+.mobile-actions {
+    display: none;
+}
+
+
+/* ================================================= */
+/* By ChatGpt PHONE */
+/* ================================================= */
+
+@media screen and (max-width: 1170px) {
+
+    /* Hide your desktop navbar content on phone */
+    .desktop-menu {
+        display: none;
+    }
+
+    /* Mobile buttons container */
+    .mobile-actions {
+        display: flex;
+        align-items: center;
+
+        /* Cart stays near logo */
+        margin-left: 15px;
+
+        /* Take remaining navbar space */
+        flex: 1;
+    }
+
+    /* Dark mode button goes toward right */
+    .mobile-mode {
+        margin-left: auto;
+    }
+
+    /* Hamburger button */
+    .mobile-menu-button {
+        display: block;
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+        font-size: 30px;
+
+        background: none;
+        border: none;
+
+        color: white;
+
+        cursor: pointer;
+    }
+
+}
