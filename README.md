@@ -1,16 +1,105 @@
-# React + Vite
+# 🍽️ Indian Kitchen Asma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Indian Kitchen Asma is an online food ordering website for ordering
+fresh , delicious and hyigene food from Indian Kitchen Asma.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🛍️ Browse food items
+- ➕ Increase quantity
+- ➖ Decrease quantity
+- 💰 View total price
+- 👤 User registration and login
+- 📍 Manage delivery address
+- 🌐 Multiple language support
+- 🌙 Light and Dark mode
+- 📱 Mobile responsive design
 
-## React Compiler
+## 🍛 Food Categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Biryani
+- Indian Main Course
+- Starters
+- Paneer
+- Snacks
+- Desserts
+- Beverages
 
-## Expanding the ESLint configuration
+## 🛒 Shopping Cart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can:
+
+- Add food items to the cart
+- Change the quantity
+- Remove items
+- View the total quantity
+- View the total price
+- Proceed to checkout
+
+## 👤 User
+
+Users can:
+
+- Create an account
+- Login
+- Manage their profile
+- Save their address
+- Place orders
+- View their orders
+
+## 👨‍💼 Admin
+
+The admin can:
+
+- Add food items
+- Update food items
+- Delete food items
+- Update food prices
+- Check order details
+
+## 💳 Payment
+
+The website will support online payment for food orders in future .
+
+## 🛠️ Technologies
+
+### Frontend
+- React.js
+- JavaScript
+- HTML
+- CSS
+
+### Backend
+- PHP
+- MySQL
+
+### Tools
+- Git
+- GitHub
+- Vite
+
+## 📱 Responsive Design
+
+The website works on:
+
+- 💻 Desktop
+- 📱 Mobile
+- 📟 Tablet
+
+## 🚀 Future Improvements
+
+- Order tracking
+- Delivery status
+- Online payment integration
+- Admin dashboard
+- Customer reviews and ratings
+- Food recommendations
+- Offers and discounts
+
+## 👨‍💻 Developer
+
+**Qasim Khan**
+
+---
+
+🍽️ **Indian Kitchen Asma — Fresh Food, Made With Love.**

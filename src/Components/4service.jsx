@@ -1,6 +1,6 @@
-import NFood1 from '../assets/NFood1.png';
-import NFood2 from '../assets/NFood2.png';
-import DeliveryBoy from '../assets/DeliveryGuy.png';
+import NFood1 from '../assets/NFood1.webp';
+import NFood2 from '../assets/NFood2.webp';
+import DeliveryBoy from '../assets/DeliveryGuy.webp';
 
 
 function Service(props) {

@@ -1,6 +1,7 @@
-import Youtube from '../assets/youtube.png';
-import Whatsapp from '../assets/WhatsappLogo.png';
-import Gmail from '../assets/GmailLogo.png';
+import Youtube from '../assets/youtube.webp';
+import Whatsapp from '../assets/WhatsappLogo.webp';
+import Gmail from '../assets/GmailLogo.webp';
+
 
 
 

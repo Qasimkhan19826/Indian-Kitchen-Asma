@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'; 
-import Logo from '../assets/Indian_Kitchen_Logo.jpeg'; 
+import Logo from '../assets/Indian_Kitchen_Logo.webp'; 
 // React lucide package provides you entity that you can use in the navbar cart ,Dark Mode ,Light Mode 
 import { ShoppingCart,Sun,Moon } from 'lucide-react'; 
  

@@ -1,12 +1,12 @@
 // Card Images (Dishes)
-import img1 from "../assets/img1-removebg-preview.png";
-import img2 from "../assets/img2-removebg-preview.png";
-import img3 from "../assets/img3-removebg-preview.png";
-import img4 from "../assets/img4-removebg-preview.png";
-import img5 from "../assets/img5-removebg-preview.png";
-import img6 from "../assets/img6-removebg-preview.png";
-import img7 from "../assets/img7-removebg-preview.png";
-import img8 from "../assets/cimg8.png";
+import img1 from "../assets/img1-removebg-preview.webp";
+import img2 from "../assets/img2-removebg-preview.webp";
+import img3 from "../assets/img3-removebg-preview.webp";
+import img4 from "../assets/img4-removebg-preview.webp";
+import img5 from "../assets/img5-removebg-preview.webp";
+import img6 from "../assets/img6-removebg-preview.webp";
+import img7 from "../assets/img7-removebg-preview.webp";
+import img8 from "../assets/cimg8.webp";
 import Productcart from "./8.productcart";
 
 function Service(props) {

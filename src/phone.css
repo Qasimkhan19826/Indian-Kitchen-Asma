@@ -99,6 +99,10 @@
 #contact-box form{
     width:75%;
 }
+
+#contact-box{
+padding-bottom:150px;
+}
 /* Footer */
 
 /* Utility Classes */
