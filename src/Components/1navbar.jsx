@@ -67,8 +67,8 @@ useEffect(() => {
             <option value="en">English</option> 
             <option value="hi">हिंदी</option> 
             <option value="gu">ગુજરાતી</option> 
-            <option value="ch">中文</option> 
             <option value="ur">اردو</option> 
+            <option value="ch">中文</option> 
           </select> 
  
         <button className="btn3" onClick={props.toggleMode} >  

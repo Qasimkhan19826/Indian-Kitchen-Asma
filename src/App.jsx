@@ -85,7 +85,9 @@ en:{
           char:"Characters",
 
           // footer Us Component
-          footer:"Copyright © www.IndianKitchenAsma.com .All Rights Reserved!"
+          footer:"Copyright © www.IndianKitchenAsma.com .All Rights Reserved!",
+
+          warn: "⚠️ You can add Maximum 3 quantity.",
 
 
 
@@ -153,7 +155,8 @@ en:{
               char: "अक्षर",
 
               // footer Us Component
-              footer: "कॉपीराइट © www.IndianKitchenAsma.com .सर्वाधिकार सुरक्षित!"
+              footer: "कॉपीराइट © www.IndianKitchenAsma.com .सर्वाधिकार सुरक्षित!",
+              warn: "⚠️ आप अधिकतम 3 मात्रा ही जोड़ सकते हैं।",
             },
 
             gu: {
@@ -217,7 +220,8 @@ en:{
               char: "અક્ષરો",
 
               // footer Us Component
-              footer: "કૉપિરાઇટ © www.IndianKitchenAsma.com .સર્વાધિકાર સુરક્ષિત!"
+              footer: "કૉપિરાઇટ © www.IndianKitchenAsma.com .સર્વાધિકાર સુરક્ષિત!",
+              warn: "⚠️ તમે મહત્તમ 3 જથ્થો ઉમેરી શકો છો."
             },
 
             ch: {
@@ -281,7 +285,9 @@ en:{
               char: "字符",
 
               // footer Us Component
-              footer: "版权所有 © www.IndianKitchenAsma.com .保留所有权利！"
+              footer: "版权所有 © www.IndianKitchenAsma.com .保留所有权利！",
+              warn: "⚠️ 您最多只能添加 3 个数量。"
+
       },
             ur: {
             // For Navbar Component
@@ -356,7 +362,8 @@ en:{
             char: "حروف",
 
             // Footer
-            footer: "کاپی رائٹ © www.IndianKitchenAsma.com۔ جملہ حقوق محفوظ ہیں!"
+            footer: "کاپی رائٹ © www.IndianKitchenAsma.com۔ جملہ حقوق محفوظ ہیں!",
+            warn: "⚠️ آپ زیادہ سے زیادہ 3 مقدار ہی شامل کر سکتے ہیں۔"
           },
 };
 

@@ -198,6 +198,7 @@
     box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.3);
 }
 
+
 .pservice .card p{
     font-family: "Bree Serif", serif;
 
@@ -420,3 +421,54 @@ footer{
     
 }
 
+/* By ChatGpt */
+/* ============================= */
+/* CART MAX QUANTITY WARNING */
+/* ============================= */
+
+
+
+/* ============================= */
+/* CART WARNING - ADD ON FIX */
+/* ============================= */
+
+
+
+/* Make each food card the reference point */
+#bestsellers .card {
+    position: relative;
+}
+
+/* Warning stays inside the card */
+.cart-warning {
+    position: absolute !important;
+
+    top: 80% !important;
+    left: 50% !important;
+    bottom: auto !important;
+    right: auto !important;
+
+    transform: translate(-50%, -50%) !important;
+
+    background-color: #ffe5e5;
+    color: #b30000;
+
+    padding: 14px 10px;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+
+    width: 250px;
+    text-align: center;
+
+    z-index: 9999 !important;
+    pointer-events: none;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+/* Contact Us Social Icons  */
+
+.social-icon {
+    color: black;
+    font-size: 50px;
+    margin: 5px;
+}

@@ -21,7 +21,7 @@ const handleOnChange = (event)=>{
         
         <h1 className="h-primary center">{props.text[props.language].signin}</h1>
         <div id="contact-box">
-            <form action="#">
+            <form  action="http://localhost/PHP/form_validation.php" method="POST">
                 <div className="form-group">
                     <label htmlFor="name">{props.text[props.language].name}</label>
                     <input type="text" name="name" id="name" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',
