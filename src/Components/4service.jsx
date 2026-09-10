@@ -6,7 +6,7 @@ import DeliveryBoy from '../assets/DeliveryGuy.webp';
 function Service(props) {
 
   return(
-  <div>
+  <div id="services">
    <section id="services-container" style={{color:props.mode === 'dark'?'white':'black'}} >
         <h1 className="h-primary center">{props.text[props.language].ourservices}</h1>
         <div id="services">

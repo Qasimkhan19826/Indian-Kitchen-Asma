@@ -5,8 +5,9 @@
 }
 /* To enable smooth scorling we have to use this
  Than we have to make change in the anchor tag*/
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: "Bree Serif";

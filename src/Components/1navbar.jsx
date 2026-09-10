@@ -32,9 +32,9 @@ useEffect(() => {
           <div className="mobile-actions" >
 
               {/* Cart button for phone */}
-              <button className="btn6">
+              {/* <button className="btn6">
                   <ShoppingCart size={28} strokeWidth={2} />
-              </button>
+              </button> */}
 
               {/* Dark / Light button for phone */}
               <button className="btn3 mobile-mode" onClick={props.toggleMode}>
@@ -48,19 +48,20 @@ useEffect(() => {
         </div>
         
         <ul className='desktop-menu'> 
-            <li className="item"><a href="#">{props.text[props.language].home}</a></li> 
-            <li className="item"><a href="#">{props.text[props.language].services}</a></li> 
-            <li className="item"><a href="#">{props.text[props.language].contact}</a></li> 
-           <li> 
+            <li className="item"><a href="#home">{props.text[props.language].home}</a></li> 
+            <li className="item"><a href="#services">{props.text[props.language].services}</a></li> 
+            <li className="item"><a href="#contact">{props.text[props.language].contact}</a></li> 
+            <li className="item"><a href="#signin">{props.text[props.language].signin}</a></li> 
+           {/* <li> 
             <button className="btn6" >  
             <ShoppingCart size={28} strokeWidth={2} /> 
               </button>  
-            </li> 
+            </li>  */}
          
         </ul> 
         <div id="left" className='desktop-menu'> 
-        <button className="btn4">{props.text[props.language].login}</button> 
-        <button className="btn4">{props.text[props.language].signin}</button> 
+        {/* <button className="btn4">{props.text[props.language].login}</button> 
+        <button className="btn4">{props.text[props.language].signin}</button>  */}
           <select className='btn4' 
           value={props.language} 
           onChange={(e)=>props.setLanguage(e.target.value)}> 
@@ -97,19 +98,22 @@ useEffect(() => {
           </button> 
  
           {/* Copying Desktop Content only taking anchor tags of ul>li rest of the things are almost same  */} 
-          <a href="#" style={{color:props.mode === 'light'?'black':'white'}} >
+          <a href="#home" style={{color:props.mode === 'light'?'black':'white'}} >
           {props.text[props.language].home}</a> 
 
-          <a href="#"  style={{color:props.mode === 'light'?'black':'white'}}>
+          <a href="#services"  style={{color:props.mode === 'light'?'black':'white'}}>
           {props.text[props.language].services}</a> 
 
-          <a href="#"  style={{color:props.mode === 'light'?'black':'white'}}>
+          <a href="#contact"  style={{color:props.mode === 'light'?'black':'white'}}>
           {props.text[props.language].contact}</a> 
           
-          <button className="btn4">
-          {props.text[props.language].login}</button> 
-          <button className="btn4">
-          {props.text[props.language].signin}</button> 
+          <a href="#contact"  style={{color:props.mode === 'light'?'black':'white'}}>
+          {props.text[props.language].signin}</a> 
+          
+          {/* <button className="btn4">
+          {props.text[props.language].login}</button>  */}
+          {/* <button className="btn4">  
+          {props.text[props.language].signin}</button>  */}
           
  
  
