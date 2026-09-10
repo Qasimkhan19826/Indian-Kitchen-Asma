@@ -33,7 +33,7 @@ en:{
           signin:"Sign in",
 
           // For Home Component
-          title:"Welcome To Indian Indian Kitchen Asma",
+          title:"Welcome To Indian Kitchen Asma",
           homedescription:"Enjoy the rich taste of restaurant-style food, freshly prepared with homemade love, care, and hygiene",
           ordernow:"Order Now",       
 
@@ -69,6 +69,10 @@ en:{
 
           // For Signin Form Heads Component 
           name:"Name :",
+          password: "Password",
+          passwordp: "Enter your password",
+          cpassword: "Confirm Password",
+          cpasswordp: "Confirm your password",
           email:"Email :",
           phno:"Phone Number",
           address:"Address",
@@ -139,6 +143,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "नाम :",
+              password: "पासवर्ड",
+              passwordp: "अपना पासवर्ड दर्ज करें",
+              cpassword: "पासवर्ड की पुष्टि करें",
+              cpasswordp: "अपने पासवर्ड की पुष्टि करें",
               email: "ईमेल :",
               phno: "फ़ोन नंबर",
               address: "पता",
@@ -204,6 +212,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "નામ :",
+              password: "પાસવર્ડ",
+              passwordp: "તમારો પાસવર્ડ દાખલ કરો",
+              cpassword: "પાસવર્ડની પુષ્ટિ કરો",
+              cpasswordp: "તમારા પાસવર્ડની પુષ્ટિ કરો",
               email: "ઈમેલ :",
               phno: "ફોન નંબર",
               address: "સરનામું",
@@ -269,6 +281,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "姓名：",
+              password: "密码",
+              passwordp: "请输入您的密码",
+              cpassword: "确认密码",
+              cpasswordp: "请确认您的密码",
               email: "电子邮件：",
               phno: "电话号码",
               address: "地址",
@@ -346,6 +362,10 @@ en:{
 
             // For Signin Form Heads Component
             name: "نام :",
+            password: "پاس ورڈ",
+            passwordp: "اپنا پاس ورڈ درج کریں",
+            cpassword: "پاس ورڈ کی تصدیق کریں",
+            cpasswordp: "اپنے پاس ورڈ کی تصدیق کریں",
             email: "ای میل :",
             phno: "فون نمبر",
             address: "پتہ",

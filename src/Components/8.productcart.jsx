@@ -1,6 +1,7 @@
 import { useState} from "react";
 
 
+
 function Productcart(props)
 {
 
@@ -23,8 +24,9 @@ const warn = ()=>{
 
 
 }
+
 return(<>
-    {!add ? (<button className='btn2' onClick={()=> setAdded(true)  }>{props.text[props.language].cart}</button>):
+    {!add ? (<button className='btn2' onClick={()=> setAdded(true)}>{props.text[props.language].cart}</button>):
                (<div className="center">
                 <button className="btn5" 
                 onClick={()=>setQuantity(quantity>1?quantity-1:1(setAdded(false)))}>-</button>
@@ -38,8 +40,8 @@ return(<>
                 )}
                 {/* SHOW WARNING */}
                 {warning && <div className="cart-warning">{warntext}</div>}
-
-           </> );
+           </> 
+           );
 }                
                
 
