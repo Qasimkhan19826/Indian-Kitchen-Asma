@@ -52,7 +52,7 @@ const login = (event)=>{
     ob.send(
     "name=" + document.getElementById("name").value +
     "&password=" + document.getElementById("password").value +
-    "&cpassword=" + document.getElementById("cpassword").value +
+    // "&cpassword=" + document.getElementById("cpassword").value +
     "&email=" + document.getElementById("email").value +
     "&phno=" + document.getElementById("phno").value +
     "&add=" + document.getElementById("add").value
@@ -82,11 +82,11 @@ const login = (event)=>{
                 borderColor:props.mode === 'dark'?'white':'black',color:props.mode === 'dark'?'white':'black'}} placeholder={props.text[props.language].passwordp}/>
                 </div>
 
-                <div className="form-group">
+                {/* <div className="form-group">
                     <label htmlFor="name">{props.text[props.language].cpassword}</label>
                     <input type="password" name="cpassword" id="cpassword" style={{backgroundColor:props.mode === 'light'?'white':'#232a3b',
                 borderColor:props.mode === 'dark'?'white':'black',color:props.mode === 'dark'?'white':'black'}} placeholder={props.text[props.language].cpasswordp}/>
-                </div>
+                </div> */}
 
                 <div className="form-group">
                     <label htmlFor="email">{props.text[props.language].email}</label>

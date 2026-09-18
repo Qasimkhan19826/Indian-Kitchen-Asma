@@ -69,10 +69,10 @@ en:{
 
           // For Signin Form Heads Component 
           name:"Name :",
-          password: "Password",
+          password: "Create Password",
           passwordp: "Enter your password",
-          cpassword: "Confirm Password",
-          cpasswordp: "Confirm your password",
+          // cpassword: "Confirm Password",
+          // cpasswordp: "Confirm your password",
           email:"Email :",
           phno:"Phone Number",
           address:"Address",
@@ -143,10 +143,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "नाम :",
-              password: "पासवर्ड",
+              password: "पासवर्ड बनाएं",
               passwordp: "अपना पासवर्ड दर्ज करें",
-              cpassword: "पासवर्ड की पुष्टि करें",
-              cpasswordp: "अपने पासवर्ड की पुष्टि करें",
+              // cpassword: "पासवर्ड की पुष्टि करें",
+              // cpasswordp: "अपने पासवर्ड की पुष्टि करें",
               email: "ईमेल :",
               phno: "फ़ोन नंबर",
               address: "पता",
@@ -212,10 +212,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "નામ :",
-              password: "પાસવર્ડ",
+              password: "પાસવર્ડ બનાવો",
               passwordp: "તમારો પાસવર્ડ દાખલ કરો",
-              cpassword: "પાસવર્ડની પુષ્ટિ કરો",
-              cpasswordp: "તમારા પાસવર્ડની પુષ્ટિ કરો",
+              // cpassword: "પાસવર્ડની પુષ્ટિ કરો",
+              // cpasswordp: "તમારા પાસવર્ડની પુષ્ટિ કરો",
               email: "ઈમેલ :",
               phno: "ફોન નંબર",
               address: "સરનામું",
@@ -281,10 +281,10 @@ en:{
 
               // For Signin Form Heads Component
               name: "姓名：",
-              password: "密码",
+              password: "创建密码",
               passwordp: "请输入您的密码",
-              cpassword: "确认密码",
-              cpasswordp: "请确认您的密码",
+              // cpassword: "确认密码",
+              // cpasswordp: "请确认您的密码",
               email: "电子邮件：",
               phno: "电话号码",
               address: "地址",
@@ -362,10 +362,10 @@ en:{
 
             // For Signin Form Heads Component
             name: "نام :",
-            password: "پاس ورڈ",
+            password: "پاس ورڈ بنائیں",
             passwordp: "اپنا پاس ورڈ درج کریں",
-            cpassword: "پاس ورڈ کی تصدیق کریں",
-            cpasswordp: "اپنے پاس ورڈ کی تصدیق کریں",
+            // cpassword: "پاس ورڈ کی تصدیق کریں",
+            // cpasswordp: "اپنے پاس ورڈ کی تصدیق کریں",
             email: "ای میل :",
             phno: "فون نمبر",
             address: "پتہ",
