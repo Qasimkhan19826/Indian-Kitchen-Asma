@@ -30,6 +30,7 @@ function Service(props) {
             </h3>
 
             <Productcart
+              id={1}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
@@ -52,6 +53,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={2}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
@@ -74,6 +76,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={3}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
@@ -96,6 +99,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={4}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
@@ -117,6 +121,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={5}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}
@@ -139,6 +144,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={6}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage} 
@@ -160,6 +166,7 @@ function Service(props) {
 
             </h3>
             <Productcart
+              id={7}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage} 
@@ -182,6 +189,7 @@ function Service(props) {
             </h3>
 
             <Productcart
+              id={8}
               language={props.language}
               text={props.text}
               setlanguage={props.setlanguage}

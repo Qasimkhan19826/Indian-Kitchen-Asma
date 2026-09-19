@@ -318,7 +318,7 @@ footer{
 .h-primary{
     font-family: "Bree Serif", serif ;
     font-size:2.8rem;
-    padding:8px;
+    padding:28px;
 }
 
 .h-secondary{
@@ -409,7 +409,7 @@ footer{
     border-radius: 12px;
     cursor: pointer;
     position: absolute;
-    top:35px;
+    /* top:35px; */
     
 }
 
@@ -472,4 +472,34 @@ footer{
     color: black;
     font-size: 50px;
     margin: 5px;
+}
+
+/* ============================= */
+/* CART QUANTITY BADGE */
+/* ============================= */
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-badge {
+    
+    position: absolute;
+    top: -5px;
+    right: -5px;
+
+    width: 18px;
+    height: 18px;
+
+    background-color: blue;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 11px;    
+    font-weight: bold;
 }
