@@ -111,7 +111,7 @@ const login = (event)=>{
                 {/* Here were there is a bug when i am using this  {text.split(' ').length} it creates an empty array which is counted as a word ,also it is consider 1 space as a word .
                 So here we will use filter method to solve this problem it takes 2 arguments ()=> arrow function and inside passing our array element like this (elements)=>(return element.length!=0) to filter elements of the array .It will remove the word 0 elements .
                    */}
-                <p className="center">{text.split(' ').filter((element)=>{return element.length !=0}).length} {props.text[props.language].and}{text.length} {props.text[props.language].char} </p>
+                <p className="center">{text.split(' ').filter((element)=>{return element.length !=0}).length} {props.text[props.language].words} {props.text[props.language].and}{text.length} {props.text[props.language].char} </p>
 
             </form>
         </div>

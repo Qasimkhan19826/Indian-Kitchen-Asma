@@ -85,6 +85,7 @@ en:{
           submit:"Submit",
 
           // and , Characters
+          words: "Words",
           and:" and ",
           char:"Characters",
 
@@ -159,6 +160,7 @@ en:{
               submit: "सबमिट करें",
 
               // and , Characters
+              words: "शब्द",
               and: " और ",
               char: "अक्षर",
 
@@ -228,6 +230,7 @@ en:{
               submit: "સબમિટ કરો",
 
               // and , Characters
+              words: "શબ્દો",
               and: " અને ",
               char: "અક્ષરો",
 
@@ -297,6 +300,7 @@ en:{
               submit: "提交",
 
               // and , Characters
+              words: "词语",
               and: " 和 ",
               char: "字符",
 
@@ -378,6 +382,7 @@ en:{
             submit: "جمع کریں",
 
             // And, Characters
+            words: "الفاظ",
             and: " اور ",
             char: "حروف",
 
